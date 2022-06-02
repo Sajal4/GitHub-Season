@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="index.js"></script>
+    <script src="./C1/react-lifecycle"></script>
     <title>Interview</title>
 </head>
 <body>
@@ -34,17 +35,25 @@
 
         <li>Explain diffing algorithm</li>
         </br>
+        <li>REact, Angular or Veu</li>
+        </br>
+        <li>LIbray or framework</li>
+        <ul>ANS: Library is a set of reusable functions used by computer programme and framework is a piece of code that dictates the architecture of a project , code calls the library but in framework , framework calls the code. in libray we can control the data flow by methods but in framework we dont have any control of the data flow framework decides how the dat awill flow that is nothing but frameworks callls the code. and in perfornmance wise react is having higher performance over angular and veu and community support and also react is having the easy learning curve and react is having SPA(Single page application).</ul>
         <li>Why you have opted for React not Angular or Vue</li>
         <ul>ANS: Library is a set of reusable functions used by computer progrums and framework, It's a pice of code that dictates the archtectures of a project, code calls the libraby, but in framework it calls the code. In library we can control the data flow by methods, but in framework we don'thave any control of the data flow framework decides how the data will flow that is nothing but framework calls the code. </ul>
 
         <li>Class vs function component</li>
         <ul>Ans: Functional Components or stateless components are the most widely used type of components with a basic syntax of JavaScript Functions that return the JSX code or the HTML code.They are called as stateless components because they accept the data and display it accordingly and are mainly responsible for the rendering of the UI.Class based or stateful Components are the ES6 classes that extend the component class of the react library. They are known as stateful components because they are responsible for the implementation of the logic. It has different phases of the React lifecycle including rendering, mounting, updating and unmounting stage.</ul>
-        <li>stateless vs stateful</li></br>
+        <li>stateless vs stateful</li>
+        <ul>Stateless component does not hold or manage state While statefu;ll component can hold or manage state, Stateless component are easy to understand but the statefull component it is complex as compared to the stateless components. Stateless component does not work with react lifecycles but whreas statefull work with lifecycle methods. Stateless can not be reused while can be used in case of statefull component.Stateless compnent is also known as functional component. Statefull is known as class component.</ul>
         <li>What are the different phases of React component's lifecycle?</li>
         <ul>
-            <li>mounting</li>
-            <li>updating</li>
-            <li>Unmounting.</li>
+            In ReactJS, every component creation process involves various lifecycle methods. These lifecycle methods are termed as component's lifecycle. These lifecycle methods are not very complicated and called at various points during a component's life. The lifecycle of the component is divided into four phases.
+                <li>Initial Phase</li>
+                <li>mounting</li>
+                <li>updating</li>
+                <li>unmounting</li>
+            Each phase contains some lifecycle methods that are specific to the particular phase
         </ul>
             <li>What is Single Page Application or SPA? Explain the difference between SPA and MPA
             </li>
@@ -68,17 +77,22 @@
             <li>props can be readonly</li>
             <li>props can be accessed by child component wherw state can't</li>
             <li>props are used for communicate between component where state used to change render dynamic changes within the component</li>
-            <li></li>
+            
         </ul>
         <li>Explain props drilling concept and state uplifting</li>
         <ul>
             <li>porps drilling is a situation inthe same data sent to almost every element due to requirment of </li>
             <li>every component react has its own state because of these sometimes data can be reabandent & inconsistence so by lifiting up the state of parent component as a singlesourece of the truth & pass the data of childern to its parent</li>
         </ul>
+        <li>What do you know about controlled and uncontrolled components?</li>
         <ul>
-            <li>What do you know about controlled and uncontrolled components?</li>
-            <li></li>
-        </ul>
+                <li>In the React component data is controlledby the React component or parent component</li>
+                <li>in the uncontrolled componentdata is controlledby DOM itself</li>
+                <li>control components allows validation control</li>
+                <li>uncontrolled component doesn't allow validation control</li>
+                <li>in control component it has better control over the forms and data</li>
+                <li>in uncontrolled component limit control over the forms and data</li>
+            </ul>
         <li>How to create Reusable components in React?</li>
         <ul>
             <li>through the props methods</li>
@@ -89,6 +103,11 @@
             <li>single source of truth</li>
             <li>state is read only</li>
             <li>changes are made with pure function</li>
+        </ul>
+        <li>What is React Router?</li>
+        <ul>
+            <li>react router is a standard library for routing in react it enable the navigation among the views of various components in react application.it allow changing the browser URL</li>
+            <li>react router plays an important role to display multiple views in a SPA</li>
         </ul>
         <li>Explain difference between Browser Route, Route, Routes</li>
         <ul>
