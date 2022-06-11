@@ -1,0 +1,119 @@
+1 - What is JS ?
+2 - What is JS engine and what are different engines available ?
+3 - What is the difference between var let and const ?
+4 - what is temporal dead zone 
+5 - what is hoisting ?
+6 - what is arrow functions ?
+7 - What is typeOf operator
+
+8 - What is the difference between == and === ? 
+9 - What is the difference between undefine and null  ?
+10 - What is Nan ?
+11 - What is Functions ?
+12 - What is Anonymous Functions ?
+13 - What is IIFE ?
+14 - What is High Order Functions  ?
+15 - What is Arrow Functions ?
+16 - What is First Class Functions ?
+17 - What is Function Expresssions ?
+
+18 - What is Pure Functions ?
+19 - What is Callback Functions ?
+20 - What is the generator function ?
+21 - What are operators ?
+22 - What is closure in javascript ?
+23 - what is function currying. With example
+24 - Write a function to delete a character from any string ?
+25 - Define Weakset weakmap
+26 - What is the difference bw Map and far each ?
+
+27 - What is the difference between filter and find
+28 - Explain for Each loop
+29 - What is Prototype  and Prototype Chaining ?
+30 - What is Call apply bind method 
+31 - Real DOM VS ReaL DOM
+32 - Implement code to check a number is palindrome or not ? 
+34 - Difference between Splice and slice 
+35 - What is Execution Conext
+
+35 What are callbacks and why do we use it
+36 - What are the different types of errors in javascript 
+    Load time error  
+    Run time error 
+37 - Can you explain why we use async-await
+38 - What are Promises and why do we need them?
+39 - Difference between ES5 and ES6
+40 - Explain the set time out function and write its syntax
+41 - Explain promise and call back hell
+42 - Event loop
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------Links:--------------------
+7th june:
+https://www.guru99.com/javascript-interview-questions-answers.html
+
+8th june:
+https://javascript.plainenglish.io/50-javascript-output-questions-818d45c3e381
+
+https://dandkim.com/js-var-let-const/
+
+https://dev.to/veedjohnson/function-declaration-vs-function-expression-2e3m
+
+https://www.freecodecamp.org/news/javascript-callback-functions-what-are-callbacks-in-js-and-how-to-use-them/
+
+https://blog.bitsrc.io/types-of-native-errors-in-javascript-you-must-know-b8238d40e492
+
+https://jsonplaceholder.typicode.com/
+
+
+
+
+
+
+
+// Write a function to delete a character from any string ?
+
+
+// function deleteChar(a,b){
+//     const z=b.split('');
+//     for(let i=0;i<z.length;i++){
+//         if(z[i]===a){
+//             z.splice(i,1);
+//         }}
+//     return(z.join(""));
+// }
+// console.log(deleteChar('s',"dssxcdvfbghnijadsfdfbg"))
+
+
+Difference between forEach() and map() ?
+
+	forEach()
+Functionality	Performs given operation on each element of the array	
+Return value	Returns undefined	
+Preferrable usage  	Performing non-tranformation like processing on each element.  
+
+    map()
+Functionality	 Performs given "transformation" on a "copy" of each element
+Return value	 Returns new array with transformed elements, leaving back original array unchanged.
+Preferrable usage   Obtaining array containing output of some processing done on each element of the array.
