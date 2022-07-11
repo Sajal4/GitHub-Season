@@ -3,6 +3,7 @@ const users=require("../db")
 const {check,validationResult}= require("express-validator");
 const bcrypt= require("bcrypt");
 const { Router } = require("express");
+const SECRECT_KEY = "1234567890";
 const jwtToken= require("jsonwebtoken")
 
 exp.post('/signup',[
@@ -36,10 +37,11 @@ exp.post('/signup',[
         email,
         password:hasedPassword
     })
-    const token = await jwtToken.sign({
-        email,
-
-    },"1234567890",{
+    const token = await jwtToken.sign(
+        {
+            email,
+        }
+    ,SECRECT_KEY,{
         expiresIn: 36000
     })
     res.json({
